@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Component Inventory for the Portable Opera House.">
+    <meta name="author" content="Yuki Huang">
+    <meta name="keywords" content="architecture, timber, portfolio, opera, mass timber, reuse">
+    <title>Portable Opera House - Inventory</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="images.html">Gallery</a></li>
+                <li><a class="active" href="table.html">Inventory</a></li>
+                <li><a href="form.html">Feedback</a></li>
+                <li><a href="map.html">Map</a></li>
+            </ul>
+        </nav>
+        <div class="container-header">
+            <h2 class="super-title">Inventory</h2>
+            <p class="subtitle">Recyclable Interim Music Palace Via Mass Timber Assembly</p>
+            <h1 class="title">Portable Opera House</h1>
+            <p class="project-location">Frankfurt, Germany</p>
+        </div>
+    </header>
+
+    <main id="main" class="site-main">        
+        <div class="components-wrap">
+            <h2>Building elements summary</h2>
+            <table class="components" aria-label="Building elements summary">
+                <thead>
+                <tr>
+                    <th class="narrow">Element</th>
+                    <th class="wide">Image</th>
+                    <th class="narrow">Count</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Column</td>
+                    <td><img src="img/column.png" alt="Column element"></td>
+                    <td>952</td>
+                </tr>
+                <tr>
+                    <td>Double beam</td>
+                    <td><img src="img/double beam.png" alt="Double beam element"></td>
+                    <td>822</td>
+                </tr>
+                <tr>
+                    <td>Single beam</td>
+                    <td><img src="img/single beam.png" alt="Single beam element"></td>
+                    <td>1231</td>
+                </tr>
+                <tr>
+                    <td>Slab</td>
+                    <td><img src="img/slab.png" alt="Slab element"></td>
+                    <td>1130</td>
+                </tr>
+                <tr>
+                    <td>Revolving wall</td>
+                    <td><img src="img/revolving wall.png" alt="Revolving wall element"></td>
+                    <td>77</td>
+                </tr>
+                <tr>
+                    <td>Solid facade</td>
+                    <td><img src="img/solid facade.png" alt="Solid facade element"></td>
+                    <td>89</td>
+                </tr>
+                <tr>
+                    <td>Lighting facade</td>
+                    <td><img src="img/lighting facade.png" alt="Lighting facade element"></td>
+                    <td>96</td>
+                </tr>
+                <tr>
+                    <td>Foldable facade</td>
+                    <td><img src="img/foldable facade.png" alt="Foldable facade element"></td>
+                    <td>456</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+    <div class="container-contact">
+        <p>
+            © <span id="year"></span> Yuki Huang  <a href="mailto:yukih@andrew.cmu.edu">yukih@andrew.cmu.edu</a>
+        </p>
+    </div>
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
